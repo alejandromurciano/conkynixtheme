@@ -11,8 +11,8 @@ Interfaces: This theme recognice eth0, wlan0 and wlan1. if you want to rename it
 services.udev.extraRules = ''
     SUBSYSTEM=="net", ACTION=="add", ATTR{address}=="a4:34:d9:d9:67:82", NAME="wlan0"
       '';
-      ```
-      Pics or didn't happend:
-      ![theme image](theme.png)
+```
+Pics or didn't happend:
+![theme image](theme.png)
 
 Have fun!
